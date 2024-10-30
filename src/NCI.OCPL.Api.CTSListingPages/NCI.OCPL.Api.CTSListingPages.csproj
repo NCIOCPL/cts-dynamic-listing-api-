@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp6.0</TargetFramework>
+    <TargetFramework>netcoreapp8.0</TargetFramework>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="NCI.OCPL.Api.Common" Version="2.1.*" />
+    <PackageReference Include="NCI.OCPL.Api.Common" Version="3.0.0" />
     <PackageReference Include="NSwag.AspNetCore" Version="13.20.*" />
     <PackageReference Include="NEST" Version="7.9.*" />
   </ItemGroup>

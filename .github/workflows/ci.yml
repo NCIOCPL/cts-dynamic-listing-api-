@@ -1,0 +1,19 @@
+name: Clinical Trial Listing Support CI workflow
+
+on:
+  push:
+    branches:
+      - master
+      - develop
+      - 'hotfix/**'
+      - 'release/**'
+      - 'feature/**'
+  pull_request:
+    types: [opened, reopened, synchronize, ready_for_review]
+
+jobs:
+  ci_remote:
+    uses: nciocpl/nci.ocpl.api.shared/.github/workflows/common-api-ci.yml@v2.x
+    with:
+      api-project: src/NCI.OCPL.Api.CTSListingPages/NCI.OCPL.Api.CTSListingPages.csproj
+      artifact-name: listing-page

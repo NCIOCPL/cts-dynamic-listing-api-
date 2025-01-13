@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netcoreapp6.0</TargetFramework>
+        <TargetFramework>netcoreapp8.0</TargetFramework>
         <IsPackable>false</IsPackable>
     </PropertyGroup>
 
@@ -21,8 +21,8 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="NCI.OCPL.Api.Common" Version="2.1.*" />
-        <PackageReference Include="NCI.OCPL.Api.Common.Testing" Version="2.1.*" />
+        <PackageReference Include="NCI.OCPL.Api.Common" Version="3.0.0" />
+        <PackageReference Include="NCI.OCPL.Api.Common.Testing" Version="3.0.0" />
     </ItemGroup>
 
 </Project>
